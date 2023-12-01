@@ -4,7 +4,7 @@ CREATE TABLE [input].[Day1] (
 [CalibrationValue] varchar(255) NULL)
 
 BULK INSERT [input].[Day1]
-FROM 'C:\Users\pim\OneDrive\Documenten\Training\Advent of Code\2023\Input\Day1.txt'
+FROM 'C:\Users\***\Advent of Code\2023\Input\Day1.txt'
 WITH 
   (
     FIELDTERMINATOR = ';', 
